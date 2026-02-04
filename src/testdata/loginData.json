@@ -1,0 +1,35 @@
+{
+  "url": "http://localhost:8888/",
+
+  "validLogin": {
+    "username": "admin",
+    "password": "tigerlion"
+  },
+
+  "invalidLogin": [
+    {
+      "scenario": "Invalid Username",
+      "username": "wrongAdmin",
+      "password": "tigerlion",
+      "errorMessage": "You must specify a valid username and password."
+    },
+    {
+      "scenario": "Invalid Password",
+      "username": "admin",
+      "password": "wrongPassword",
+      "errorMessage": "You must specify a valid username and password."
+    },
+    {
+      "scenario": "Both Invalid",
+      "username": "wrongUser",
+      "password": "wrongPass",
+      "errorMessage": "You must specify a valid username and password."
+    },
+    {
+      "scenario": "Empty Credentials",
+      "username": "",
+      "password": "",
+      "errorMessage": "You must specify a valid username and password."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "leads": [
+    {
+      "gender": "Male",
+      "salutation": "Mr.",
+      "firstName": "Rahul",
+      "lastName": "Sharma",
+      "company": "ABC Pvt Ltd",
+      "leadStatus": "Hot",
+      "rating": "Market Failed",
+      "assignedTo": "Support Group"
+    },
+    {
+      "gender": "Male",
+      "salutation": "Mr.",
+      "firstName": "Amit",
+      "lastName": "Verma",
+      "company": "XYZ Pvt Ltd",
+      "leadStatus": "Hot",
+      "rating": "Market Failed",
+      "assignedTo": "Support Group"
+    },
+    {
+      "gender": "Female",
+      "salutation": "Ms.",
+      "firstName": "Neha",
+      "lastName": "Gupta",
+      "company": "LMN Pvt Ltd",
+      "leadStatus": "Hot",
+      "rating": "Market Failed",
+      "assignedTo": "Support Group"
+    },
+    {
+      "gender": "Female",
+      "salutation": "Ms.",
+      "firstName": "Priya",
+      "lastName": "Singh",
+      "company": "OPQ Pvt Ltd",
+      "leadStatus": "Hot",
+      "rating": "Market Failed",
+      "assignedTo": "Support Group"
+    }
+  ]
+}
