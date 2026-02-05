@@ -46,7 +46,7 @@ test.describe("VTiger Login Tests", () => {
     await loginPage.verifyInvalidLoginError(
       loginData.invalidLogin[0].errorMessage
     );
-
+console.log("Invalid login test executed successfully.");
 
 
   });
